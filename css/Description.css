@@ -1,0 +1,59 @@
+/*Intan Rizki Raditiyani*/
+body /*style for all given components, In a document, there is only one <body> element. All tags can be pasted.*/
+{
+            font-family:arial,segoe ui;
+            background: rgb(162, 224, 224);  /*light blue*/
+}
+
+.wrap /*to adjust the position of the text to adjust according to the width of the column*/
+{
+            width:1000px;
+            margin:0 auto;          
+} 
+             
+header /*used to set the title*/
+{
+            width:auto;
+            background:rgb(162, 224, 224); /*light blue*/
+            padding:20px;
+            color:white;
+            text-align: center;
+}
+     
+.nav /*used to regulate access to other links*/
+{
+            width:auto;
+            background:rgb(127, 182, 182); /*light blue*/
+            padding:10px 20px;
+            color:white;
+            border-style: solid black;
+            text-align:center;
+}    
+  
+.main  /* used to manage all parts of the website except the footer */
+{
+            width:100%;
+            background:rgb(124, 116, 116); /*grey*/
+}
+
+#content/* id used to insert text, images and others.*/
+{
+    float:left;
+    width:45%;
+    background:rgb(223, 203, 203); /*medium grey*/
+    padding: 1%; 
+    height:350px;
+}
+
+#content p {
+    text-align: right;
+}
+#footer /*id used to close website pages*/
+{
+            width:auto;
+            height:auto;
+            padding:5px 10px;
+            background:#333;/*dark grey*/
+            color:#fff;
+  
+  }
