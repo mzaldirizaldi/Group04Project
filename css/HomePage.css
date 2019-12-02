@@ -1,0 +1,57 @@
+/*Rohimah Buhaimin & Ayu Sulistiowati*/
+
+body { /*style for all layout */
+    font-family:arial,segoe ui;
+    background: rgb(162, 224, 224);   /*light blue*/
+}
+
+
+
+header {  /*style for all layout*/
+    width:auto;
+    background:rgb(162, 224, 224); /*light blue*/
+    padding:20px;
+    color:white; /*text*/
+    text-align: center;
+}   
+
+nav {  /*style for all layout*/
+    width:auto;
+    background:rgb(127, 182, 182); /*light blue*/
+    padding:10px 20px;
+    color:white;
+    border-style: solid black;
+    text-align:center;
+} 
+
+.main {
+    width:100%;
+    background:rgb(124, 116, 116); /*dark grey*/
+}
+
+.sidebar { /*medium table on the right main content*/
+    float:right;
+    width:26%;
+    background:rgb(124, 116, 116); /*dark grey*/
+    padding:2%;
+
+}  
+
+content { /*to put the main content on left page. under navigation*/
+    float:left;
+    width:66%;
+    background:rgb(162, 224, 224); /*light blue*/
+    padding:2%; 
+    min-height:400px;
+}
+
+.clear {clear:both} /*to put email. colspan footer*/
+
+footer { /*under content and sidebar*/
+    width:auto;
+    height:auto;
+    padding:5px 10px;
+    background:#333; /*dark grey*/
+    color:#fff;
+
+}
