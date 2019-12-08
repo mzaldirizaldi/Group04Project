@@ -1,0 +1,59 @@
+/*Rohimah Buhaimin*/
+  
+body {
+            font-family:arial,segoe ui; 
+            background-image: url(big-gaming-competition.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            
+}/*use for background and style for all component given*/
+
+header{
+            
+    width:auto;
+    background:rgb(162, 224, 224); /*light blue*/
+    padding:20px;
+    color:white;
+    text-align: center;
+}/* class use for title*/
+
+header h1 a {
+    text-decoration: none;
+    color: white;
+    text-align: center} /*We decided to add a link into the header*/
+
+nav { /*style for all layout*/
+    width:auto;
+    background:rgb(127, 182, 182); /*dark blue*/
+    padding:10px 20px;
+    color:white;
+    border-style: solid black;
+    text-align:center;
+}    
+
+  
+#content h2{
+            width:auto;
+            background:red;
+            padding:20px;
+            bottom: auto
+            color: black;
+            text-align: center;
+} /* id use for title to 2*/
+
+#content h3{
+            width:auto;
+            background:yellow;
+            padding:20px;
+            color:orangered;
+            text-align: center;
+} /* id use for title to 3*/
+
+#content h4{
+            width:auto;
+            background:yellowgreen;
+            padding:20px;
+            color:yellow;
+            text-align: center;
+}/*id use for title 4*/   
