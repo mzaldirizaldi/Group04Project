@@ -7,7 +7,7 @@ body /*style for all given components, In a document, there is only one <body> e
 
 .wrap /*to adjust the position of the text to adjust according to the width of the column*/
 {
-            width:1000px;
+            width:70%;/* ichanged it from 1000px to 70% so it can fit for the responsive*/
             margin:0 auto;          
 } 
              
