@@ -7,7 +7,7 @@ body /*style for all given components, In a document, there is only one <body> e
 
 .wrap /*to adjust the position of the text to adjust according to the width of the column*/
 {
-            width:70%;/* ichanged it from 1000px to 70% so it can fit for the responsive*/
+            width:70%;/* i changed it from 1000px to 70% so it can fit for the responsive*/
             margin:0 auto;          
 } 
              
@@ -19,6 +19,11 @@ header /*used to set the title*/
             color:white;
             text-align: center;
 }
+
+header h1 a {
+    text-decoration: none;
+    color: white;
+    text-align: center}
      
 .nav /*used to regulate access to other links*/
 {
