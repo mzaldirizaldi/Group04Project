@@ -73,10 +73,10 @@ header h1 a {
     .frame {
         height: auto;
         width: auto;
-        margin: 10px 10px;
+       
     }
     .wrap {
-        width: 600px;
+        width: 90%;
         margin: 0 auto;
     }
     
