@@ -50,6 +50,13 @@ header h1 a {
     height:350px;
 }
 
+.frame
+{
+        height: auto;
+        width: 100%;
+        float: left;
+}
+
 #content p {
     text-align: right;
 }
@@ -62,3 +69,16 @@ header h1 a {
             color:#fff;
   
   }
+@media only screen and (max-width:880px){
+    .frame {
+        height: auto;
+        width: auto;
+        margin: 10px 10px;
+    }
+    .wrap {
+        width: 600px;
+        margin: 0 auto;
+    }
+    
+    
+}
