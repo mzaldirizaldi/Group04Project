@@ -1,84 +1,67 @@
-/*Intan Rizki Raditiyani*/
-body /*style for all given components, In a document, there is only one <body> element. All tags can be pasted.*/
+#wrap /*to make a frame for the content of the article so the article won't go anywhere */
 {
-            font-family:arial,segoe ui;
-            background: rgb(162, 224, 224);  /*light blue*/
+    margin-left: 160px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+	width: 800px;
+	background: #fff;
+	padding: 10px;
 }
-
-.wrap /*to adjust the position of the text to adjust according to the width of the column*/
+#contentheader /*for the frame of the title */
 {
-            width:70%;/* i changed it from 1000px to 70% so it can fit for the responsive*/
-            margin:0 auto;          
-} 
-             
-header /*used to set the title*/
-{
-            width:auto;
-            background:rgb(162, 224, 224); /*light blue*/
-            padding:20px;
-            color:white;
-            text-align: center;
+    background-color: gainsboro;
+    color: black;
+    height: 100px;
+    width: 100%;
+    }
+#contentheader h1 /*for the font of the title */
+{ 
+    font-size: 50px;
+    letter-spacing: -6px;
+    padding: 17px 0 0 10px;
+    color: indianred;
 }
-
-header h1 a {
+#content /*where the article is written*/
+{
+    padding: 0 20px 20px 0;
+    font-size: 20px;
+}
+.rightlayout a /*for the recomendation to read*/
+{
+    float: right;
+    width: 400px;
+    height: 300px;
+    text-align: justify;
+    padding-top: 5px;
+    margin-top: 30px;
+    margin-right: 100px;
+    clear: both;
+  
+}
+.rightlayout a:hover /*the image can change color when the cursor pointed at the image*/
+{
+    float: right;
+    width: 400px;
+    height: 300px;
+    text-align: justify;
+    padding-top: 5px;
+    margin-top: 30px;
+    margin-right: 100px;
+    clear: both;
+    opacity: 30%;
+  
+}
+.righttitle h2 a /*for the title of recomendation to read*/
+{
     text-decoration: none;
-    color: white;
-    text-align: center}
-     
-.nav /*used to regulate access to other links*/
-{
-            width:auto;
-            background:rgb(127, 182, 182); /*light blue*/
-            padding:10px 20px;
-            color:white;
-            border-style: solid black;
-            text-align:center;
-}    
-  
-.main  /* used to manage all parts of the website except the footer */
-{
-            width:100%;
-            background:rgb(124, 116, 116); /*grey*/
-}
-
-#content/* id used to insert text, images and others.*/
-{
-    float:left;
-    width:45%;
-    background:rgb(223, 203, 203); /*medium grey*/
-    padding: 1%; 
-    height:350px;
-}
-
-.frame
-{
-        height: auto;
-        width: 100%;
-        float: left;
-}
-
-#content p {
-    text-align: right;
-}
-#footer /*id used to close website pages*/
-{
-            width:auto;
-            height:auto;
-            padding:5px 10px;
-            background:#333;/*dark grey*/
-            color:#fff;
-  
-  }
-@media only screen and (max-width:880px){
-    .frame {
-        height: auto;
-        width: auto;
-       
-    }
-    .wrap {
-        width: 90%;
-        margin: 0 auto;
-    }
-    
-    
+    text-align: center;
+    padding-top: 10px;
+    float: right;
+    width: 400px;
+    height: 50px;
+    background-color: gainsboro;
+    clear: both;
+    margin-right: 100px;
+ 
 }
