@@ -63,5 +63,18 @@
     background-color: gainsboro;
     clear: both;
     margin-right: 100px;
- 
+    color: black;
+}
+.righttitle h2 a:hover /*the text can change color when the cursor pointed at the text*/
+{
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    float: right;
+    width: 400px;
+    height: 50px;
+    background-color: gainsboro;
+    clear: both;
+    margin-right: 100px;
+    color: indianred;
 }
