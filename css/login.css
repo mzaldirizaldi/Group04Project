@@ -1,0 +1,89 @@
+body /*changes the body, from font, bg color, positioning*/
+{
+margin: 0;
+padding: 0;
+height: 100vh;
+background: #ff0;
+font-family: Poopins, sans-serif;
+}
+.login /*makes the login box in the middle*/
+{
+text-align: center;
+width: 350px;
+box-sizing: border-box;
+padding: 40px;
+background: #fff;
+margin-left:38%;
+margin-bottom:10%;
+margin-top:5%;
+}
+.login h2 /*changes the font inside the login frame*/
+{
+margin: 0 0 20px;
+padding: 0;
+font-size: 30px;
+text-transform: uppercase;
+}
+.login .input-group /*changes the login frame positioning*/
+{
+position: relative;
+width: 100%;
+margin-bottom: 25px;
+}
+.login .input-group input /*changes the styling of the input box inside the login frame*/
+{
+height: 50px;
+width: 100%;
+padding: 0 20px;
+box-sizing: border-box;
+font-size: 18px;
+outline: none;
+border: 1px solid #000;
+}
+.login .input-group span /*changes the styling of the font inside the input box*/
+{
+position: absolute;
+top: 12px;
+left: 20px;
+padding: 0;
+transition: 0.5s;
+pointer-events: none;
+background: #fff;
+text-transform: uppercase;
+}
+.login .input-group input:focus ~ span /*changes the login box color/style*/
+.login .input-group input:valid ~ span
+{
+top: -12px;
+left: 12px;
+font-size: 12px;
+padding: 2px 4px;
+border: 1px solid #000;
+background: #ff0;
+}
+.login .input-group input[type="submit"] /*changes the login box color and style*/
+{
+background: indianred;
+border: none;
+box-shadow: none;
+text-transform: uppercase;
+cursor: pointer;
+font-weight: 600;
+}
+.login .input-group input[type="submit"]:hover /*makes the color of the login box different when a mouse hover above it*/
+{
+background: #ffc107;
+}
+.login a /*changes the style and position of the hyperlink*/
+{
+color: #262626;
+text-decoration: none;
+display: block;
+text-align: left;
+color: #666;
+}
+.login a span /*changes the style of the hyperlink font*/
+{
+color: #262626;
+font-weight: 600;
+}
