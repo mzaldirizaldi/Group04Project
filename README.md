@@ -2,4 +2,4 @@
 Blablabla Gaming News Website
 
 
-![alt text](https://animated.name/uploads/posts/2016-08/1471201938_602.gif)
+![alt text](https://i.kym-cdn.com/photos/images/newsfeed/000/805/621/cd9.gif)
