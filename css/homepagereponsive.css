@@ -1,0 +1,87 @@
+@media only screen and (max-width:400px){
+    #frame1{
+        width: 100%
+    }
+    #frame2{
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 110px
+    }
+    #frame3
+    {
+        height: 350px;
+        width: 100%;
+        float: left;
+        margin-top: -80px;
+        margin-right: 0.30%
+    }
+}
+    @media only screen and (max-width:600px){
+    #frame1{
+        width: 100%
+    }
+    #frame2{
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 110px
+    }
+    #frame3
+    {
+        height: 350px;
+        width: 100%;
+        float: left;
+        margin-top: -60px;
+        margin-right: 0.30%
+    }
+        
+}
+   @media only screen and (min-width:700px){
+    #titleA1 h2 a
+        {
+            height: 100px;
+            font-size: 150%;
+        }
+    #titleA1 h2 a:hover
+        {
+            height: 100px;
+            font-size: 150%
+        }
+    #titleA2 h2 a
+        {
+            height: 100px;
+            font-size: 150%;
+        }
+    #titleA2 h2 a:hover
+        {
+            height: 100px;
+            font-size: 150%
+        }
+    #frame1
+       {
+        margin-bottom: 60px
+        }
+    #frame2
+       {
+        margin-bottom: 60px
+        }
+    #frame3
+       {
+           width: 49%;
+           margin-right: 0.5%
+       }
+    #titleB1 h2 a
+        {
+            height: 100px;
+            font-size: 150%
+        }
+    #titleB1 h2 a:hover
+        {
+            height: 100px;
+            font-size: 150%;
+       }
+       #footer 
+       {
+           margin-top: 50px
+       }
+}
+
