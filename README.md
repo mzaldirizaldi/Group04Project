@@ -4,10 +4,10 @@ Blablabla Gaming News Website
 
 
 Team Member:
-Muhammad Rizaldi
-Aufa Randy Raihan Hidayat
-Rayhan Junicko
-Andrian Dwi Nugroho
+Muhammad Rizaldi,
+Aufa Randy Raihan Hidayat,
+Rayhan Junicko,
+Andrian Dwi Nugroho,
 
 
 
