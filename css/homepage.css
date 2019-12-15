@@ -1,0 +1,233 @@
+#layout1 /*To make frame of two pictures (Picture1 and Picture 2 side by side)*/ 
+{
+    height: 300px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px
+}
+#picture1 a/*frame a picture, use width and height 100% in img to use it*/
+{
+    height: 300px;
+    width: 40%;
+    background-color: indianred;
+    float: left;
+    margin-right: 1%
+}
+#picture1 a:hover/*to make picture1 invisibile when click on it*/
+{
+    height: 300px;
+    width: 40%;
+    background-color: indianred;
+    float: left;
+    margin-right: 1%;
+    opacity: 30%
+}
+
+#picture2 a/*frame a picture, use width and height 100% in img to use it*/
+{
+    height: 300px;
+    width: 58%;
+    float: left;
+    margin-left: 1%;
+    background-color: indianred
+}
+#picture2 a:hover/*to make picture2 invisibile when click on it*/
+{
+    height: 300px;
+    width: 58%;
+    float: left;
+    margin-left: 1%;
+    background-color: indianred;
+    opacity: 30%
+}
+#titleA/*title frame in the bottom of picture1 and picture2*/
+{
+    height: 50px;
+    width: 90%;
+    margin-left: 5%;
+    text-decoration: none;
+}
+#titleA1 h2 a/*title text in the bottom of picture1*/
+{
+    height: 50px;
+    width: 40%;
+    float: left;
+    margin-right: 1%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+    padding-top: 20px
+}
+#titleA1 h2 a:hover/*to turn titleA1 into red when you click it*/
+{
+    height: 50px;
+    width: 40%;
+    float: left;
+    margin-right: 1%;
+    text-align: center;
+    text-decoration: none;
+    color: indianred;
+    background-color: grey;
+    padding-top: 20px
+}
+#titleA2 h2 a/*title text in the bottom of picture2*/
+{
+    height: 50px;
+    width: 58%;
+    float: left;
+    margin-left: 1%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+    padding-top: 20px
+}
+#titleA2 h2 a:hover/*to turn titleA2 into red when you click it*/
+{
+    height: 50px;
+    width: 58%;
+    float: left;
+    margin-left: 1%;
+    text-align: center;
+    text-decoration: none;
+    color: indianred;
+    background-color: grey;
+    padding-top: 20px
+}
+#layout2 /*to make frame of 3 pictures (picture3, picture4, and picture5 are side by side)*/
+{
+    height: 300px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30px
+}
+#picture3 a/*To frame a picture, width and height 100% when you use it*/
+{
+    height: 300px;
+    width: 33%;
+    background-color: indianred;
+    float: left;
+    margin-right: 1%
+}
+#picture3 a:hover/*to make picture3 invisibility when you click it*/
+{
+    height: 300px;
+    width: 33%;
+    background-color: indianred;
+    float: left;
+    margin-right: 1%;
+    opacity: 30%
+}
+#picture4 a/*To frame a picture, width and height 100% when you use it*/
+{
+    height: 300px;
+    width: 33%;
+    background-color: indianred;
+    float: left;
+}
+#picture4 a:hover/*to make picture4 invisibility when you click it*/
+{
+    height: 300px;
+    width: 33%;
+    background-color: indianred;
+    float: left;
+    opacity: 30%
+}
+#picture5 a/*To frame a picture, width and height 100% when you use it*/
+{
+    height: 300px;
+    width: 32%;
+    background-color: indianred;
+    float: left;
+    margin-left: 1%
+}
+#picture5 a:hover/*to make picture4 invisibility when you click it*/
+{
+    height: 300px;
+    width: 32%;
+    background-color: indianred;
+    float: left;
+    margin-left: 1%;
+    opacity: 30%
+}
+
+#titleB/*title frame in the bottom of picture3, picture4, and picture5*/
+{
+    height: 100px;
+    width: 90%;
+    margin-left: 5%;
+    text-decoration: none;
+}
+#titleB1 h2 a/*title text in the bottom of picture3*/
+{
+    height: 50px;
+    width: 33%;
+    float: left;
+    margin-right: 1%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+    padding-top: 20px
+}
+#titleB1 h2 a:hover/*to turn titleB1 into red when you click it*/
+{
+    height: 50px;
+    width: 33%;
+    float: left;
+    margin-right: 1%;
+    text-align: center;
+    text-decoration: none;
+    color: indianred;
+    background-color: grey;
+    padding-top: 20px
+}
+
+#titleB2 h2 a/*title text in the bottom of picture4*/
+{
+    height: 50px;
+    width: 33%;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+    padding-top: 20px
+}
+#titleB2 h2 a:hover/*to turn titleB2 into red when you click it*/
+{
+    height: 50px;
+    width: 33%;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: indianred;
+    background-color: grey;
+    padding-top: 20px
+}
+
+#titleB3 h2 a/*title text in the bottom of picture5*/
+{
+    height: 50px;
+    width: 32%;
+    float: left;
+    margin-left: 1%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+    padding-top: 20px
+}
+#titleB3 h2 a:hover/*to turn titleB3 into red when you click it*/
+{
+    height: 50px;
+    width: 32%;
+    float: left;
+    margin-left: 1%;
+    text-align: center;
+    text-decoration: none;
+    color: indianred;
+    background-color: grey;
+    padding-top: 20px
+}
