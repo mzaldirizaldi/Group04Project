@@ -1,18 +1,19 @@
 #wrap /*to make a frame for the content of the article so the article won't go anywhere */
 {
     margin-left: 160px;
-    margin-right: 50px;
+    margin-right: 550px;
     margin-top: 20px;
     margin-bottom: 10px;
-	width: 800px;
+	width: auto;
 	background: #fff;
 	padding: 10px;
+    text-align: left;
 }
 #contentheader /*for the frame of the title */
 {
     background-color: gainsboro;
     color: black;
-    height: 100px;
+    height: auto;
     width: 100%;
     }
 #contentheader h1 /*for the font of the title */
@@ -22,16 +23,29 @@
     padding: 17px 0 0 10px;
     color: indianred;
 }
+.pic_content p img {
+    display: block;
+    padding-bottom: 5px;
+    width: 100%;
+}
 #content /*where the article is written*/
 {
     padding: 0 20px 20px 0;
     font-size: 20px;
+    
 }
-.rightlayout a /*for the recomendation to read*/
+#wrapright{
+    float:right;
+    width: 35%;
+    background: #fff;
+	padding: 10px;
+}
+
+.rightlayout a img/*for the recomendation to read*/
 {
     float: right;
-    width: 400px;
-    height: 300px;
+    width: 77%;
+    height: 40%;
     text-align: justify;
     padding-top: 5px;
     margin-top: 30px;
@@ -41,15 +55,7 @@
 }
 .rightlayout a:hover /*the image can change color when the cursor pointed at the image*/
 {
-    float: right;
-    width: 400px;
-    height: 300px;
-    text-align: justify;
-    padding-top: 5px;
-    margin-top: 30px;
-    margin-right: 100px;
-    clear: both;
-    opacity: 30%;
+    opacity: 50%;
   
 }
 .righttitle h2 a /*for the title of recomendation to read*/
@@ -58,23 +64,18 @@
     text-align: center;
     padding-top: 10px;
     float: right;
-    width: 400px;
-    height: 50px;
+    width: 77%;
+    height: 10%;
     background-color: gainsboro;
     clear: both;
     margin-right: 100px;
+    margin-bottom: 30px;
     color: black;
 }
 .righttitle h2 a:hover /*the text can change color when the cursor pointed at the text*/
 {
-    text-decoration: none;
-    text-align: center;
-    padding-top: 10px;
-    float: right;
-    width: 400px;
-    height: 50px;
-    background-color: gainsboro;
-    clear: both;
-    margin-right: 100px;
+
     color: indianred;
 }
+
+    

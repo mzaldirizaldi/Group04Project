@@ -1,0 +1,52 @@
+@media only screen and (max-width: 400px){
+    
+    #contentheader /*for the frame of the title */
+{
+    width: 100%;
+    height: auto;
+    }
+
+    #contentheader h1 /*for the font of the title */
+{ 
+    font-size: 4px;
+}
+    
+    #content /*where the article is written*/
+{
+    padding: 0 10px 10px 0;
+    font-size: 10px;
+}
+    
+    .rightlayout a /*for the recomendation to read*/
+{
+    float: left;
+    width: 10%;
+    text-align: justify;
+    padding-top: 5px;
+    margin-top: 30px;
+  
+}
+
+    .righttitle h2 a /*for the title of recomendation to read*/
+{
+    width: 10%;   
+}
+    
+}
+
+@media only screen and (min-width:700px) and (max-width:1100){
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+    
