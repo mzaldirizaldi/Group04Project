@@ -3,50 +3,184 @@
     #contentheader /*for the frame of the title */
 {
     width: 100%;
-    height: auto;
+    height: 120px;
     }
 
     #contentheader h1 /*for the font of the title */
 { 
-    font-size: 4px;
+    font-size: 40px;
 }
     
+    #content p /*where the article is written*/
+{
+    font-size: 15px;
+}
     #content /*where the article is written*/
 {
-    padding: 0 10px 10px 0;
-    font-size: 10px;
+    padding: 0 0px 0px 0;
+    font-size: 20px;
+    
+}
+    #wrap{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+        margin-right: -10px
+    }
+    #wrapright{
+    width: 0%;
+        height: 0%;
+	padding: 0px;
+}
+
+.rightlayout a img/*for the recomendation to read*/
+{
+    float: right;
+    width: 0%;
+    height: 0%;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+  
+}
+.rightlayout a:hover /*the image can change color when the cursor pointed at the image*/
+{
+    opacity: 0%;
+  
+}
+.righttitle h2 a /*for the title of recomendation to read*/
+{
+    padding-top: 0px;
+    width: 0%;
+    height: 0%;
+    background-color: gainsboro;
+    clear: both;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    color: black;
+    opacity: 0%;
+    font-size: 0px
+}
+.righttitle h2 a:hover /*the text can change color when the cursor pointed at the text*/
+{
+
+    color: indianred;
+}
+}
+
+@media only screen and (min-width: 401px) and (max-width:600px){
+    
+    #contentheader /*for the frame of the title */
+{
+    width: 100%;
+    height: 120px;
+    }
+
+    #contentheader h1 /*for the font of the title */
+{ 
+    font-size: 40px;
 }
     
-    .rightlayout a /*for the recomendation to read*/
+    #content p /*where the article is written*/
 {
-    float: left;
-    width: 10%;
+    font-size: 15px;
+}
+    #content /*where the article is written*/
+{
+    padding: 0 0px 0px 0;
+    font-size: 20px;
+    
+}
+    #wrap{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        padding: 0px
+    }
+    #wrapright{
+    width: 0%;
+        height: 0%;
+	padding: 0px;
+}
+
+.rightlayout a img/*for the recomendation to read*/
+{
+    float: right;
+    width: 0%;
+    height: 0%;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+  
+}
+.rightlayout a:hover /*the image can change color when the cursor pointed at the image*/
+{
+    opacity: 0%;
+  
+}
+.righttitle h2 a /*for the title of recomendation to read*/
+{
+    padding-top: 0px;
+    width: 0%;
+    height: 0%;
+    background-color: gainsboro;
+    clear: both;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    color: black;
+    opacity: 0%;
+    font-size: 0px
+}
+.righttitle h2 a:hover /*the text can change color when the cursor pointed at the text*/
+{
+
+    color: indianred;
+}
+}
+@media only screen and (min-width:700px) and (max-width:1100){
+    #wrapright{
+    float:right;
+    width: 35%;
+    background: #fff;
+	padding: 10px;
+}
+
+.rightlayout a img/*for the recomendation to read*/
+{
+    float: right;
+    width: 77%;
+    height: 40%;
     text-align: justify;
     padding-top: 5px;
     margin-top: 30px;
+    margin-right: 100px;
   
 }
-
-    .righttitle h2 a /*for the title of recomendation to read*/
+.rightlayout a:hover /*the image can change color when the cursor pointed at the image*/
 {
-    width: 10%;   
+    opacity: 50%;
+  
 }
-    
+.righttitle h2 a /*for the title of recomendation to read*/
+{
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    float: right;
+    width: 77%;
+    height: 10%;
+    background-color: gainsboro;
+    clear: both;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    color: red;
+}
+.righttitle h2 a:hover /*the text can change color when the cursor pointed at the text*/
+{
+
+    color: indianred;
 }
 
-@media only screen and (min-width:700px) and (max-width:1100){
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 }
-    
